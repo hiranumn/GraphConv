@@ -46,5 +46,6 @@ We currently do not use it.
 This file contains
 - 2 versions of DataFeeder instances.
 - Helper functions for data processing. See ipynb/DataProcessing.ipynb for how to use them.
+- a class definition for `intx`
 
 
