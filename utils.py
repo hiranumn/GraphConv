@@ -27,7 +27,7 @@ class intx:
     def __contains__(self, x):
         return x in self.A or x in self.B
     
-    def isIntracting(self, a, b):
+    def isInteracting(self, a, b):
         return (a in self.A and b in self.B) or (a in self.B and b in self.A)
     
     def __repr__(self):
