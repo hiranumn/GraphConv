@@ -39,6 +39,12 @@ convlolutionGraph_sc() implements a graph convolution layer defined by Kipf et a
 - `glap` is an instance of tf.SparseTensor that defines a graph laplacian matrix DAD.
 
 # inits.py
-Four common initialization methods for network weights, i.e., `uniform()`, `glorot()`, `zeros()`, and `ones()`.
+This file contains 4 common initialization methods for network weights, i.e., `uniform()`, `glorot()`, `zeros()`, and `ones()`.
+We currently do not use it.
 
 # utils.py
+This file contains
+- 2 versions of DataFeeder instances.
+- Helper functions for data processing. See ipynb/DataProcessing.ipynb for how to use them.
+
+
