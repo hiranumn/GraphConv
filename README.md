@@ -37,3 +37,14 @@ convlolutionGraph_sc() implements a graph convolution layer defined by Kipf et a
 - `inputs` is a 2d tensor that goes into the layer.
 - `num_outputs` specifies the number of channels wanted on the output tensor.
 - `glap` is an instance of tf.SparseTensor that defines a graph laplacian matrix DAD.
+
+# inits.py
+This file contains 4 common initialization methods for network weights, i.e., `uniform()`, `glorot()`, `zeros()`, and `ones()`.
+We currently do not use it.
+
+# utils.py
+This file contains
+- 2 versions of DataFeeder instances.
+- Helper functions for data processing. See ipynb/DataProcessing.ipynb for how to use them.
+
+
