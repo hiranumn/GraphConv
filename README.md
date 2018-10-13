@@ -37,3 +37,8 @@ convlolutionGraph_sc() implements a graph convolution layer defined by Kipf et a
 - `inputs` is a 2d tensor that goes into the layer.
 - `num_outputs` specifies the number of channels wanted on the output tensor.
 - `glap` is an instance of tf.SparseTensor that defines a graph laplacian matrix DAD.
+
+# inits.py
+
+
+# utils.py
