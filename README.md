@@ -2,7 +2,8 @@
 
 Very basic implementation of two graph convolution layers.
 
-# Graph convolution without self connection
+# Code
+### Graph convolution without self connection
 
 ```
 def convolutionGraph(inputs,
@@ -20,7 +21,7 @@ convlolutionGraph() implements a graph convolution layer defined by Kipf et al.
 - `num_outputs` specifies the number of channels wanted on the output tensor.
 - `glap` is an instance of tf.SparseTensor that defines a graph laplacian matrix DAD.
 
-# Graph convolution with self connection
+### Graph convolution with self connection
 
 ```
 def convolutionGraph_sc(inputs,
@@ -38,14 +39,18 @@ convlolutionGraph_sc() implements a graph convolution layer defined by Kipf et a
 - `num_outputs` specifies the number of channels wanted on the output tensor.
 - `glap` is an instance of tf.SparseTensor that defines a graph laplacian matrix DAD.
 
-# inits.py
+### inits.py
 This file contains 4 common initialization methods for network weights, i.e., `uniform()`, `glorot()`, `zeros()`, and `ones()`.
 We currently do not use it.
 
-# utils.py
+### utils.py
 This file contains
 - 2 versions of DataFeeder instances.
 - Helper functions for data processing. See ipynb/DataProcessing.ipynb for how to use them.
 - A class definition for `intx`.
 
+# Data Files
+You can download datafiles from here.
 
+# Models
+See runningGraphConv.py for implemention and training of he
