@@ -55,6 +55,6 @@ We also have TCGA RNA-seq data for approx 9000 samples. This is the data that ar
 You can download datafiles from here.
 
 # Models
-See runningGraphConv.py for implemention and training of the models. It is should be straight forward.
+See ipynb/runningGraphConv.py for implemention and training of the models. It is should be straight forward.
 
 For any question, e-mail me at hiranumn at cs dot washington dot edu.
