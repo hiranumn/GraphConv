@@ -1,6 +1,6 @@
 # graphConv.py
 
-Very basic implementation of two graph convolution layers.
+Implementation of two types of graph convolution layers, and application of them on TCGA RNA-seq data and a graph defined over genes by BioGrid PPI.
 
 # Code
 ### Graph convolution without self connection:
