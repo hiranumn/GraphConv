@@ -52,7 +52,7 @@ This file contains
 # Test Data Files
 We have ppi matrix extracted from BioGrid in March 2018. This defines a graph.
 We also have TCGA RNA-seq data for approx 9000 samples. This is the data that are getting convolved over the graph.
-You can download datafiles from here.
+You can download datafiles from [here](https://drive.google.com/drive/folders/1fwYmLZyH0yoVx40atSDIQ9yLjXIM3yH_?usp=sharing).
 
 # Models
 See ipynb/runningGraphConv.py for implemention and training of the models. It is should be straight forward.
