@@ -1,5 +1,7 @@
 # graphConv.py
 
+![alt text](concept.png)
+
 Implementation of two types of graph convolution layers, and application of them on TCGA RNA-seq data and a graph defined over genes by BioGrid PPI.
 
 # Code
